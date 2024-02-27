@@ -69,7 +69,7 @@ def options(user_two):
             return False
             break
         else:
-            print("Please choose a number from 1-6.")
+            print("Please choose a number from 1 to 6:")
 
 def bank_creation(name):
     balance = float(input(f"{name.title()}, how much money do you have? "))
